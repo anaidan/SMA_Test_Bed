@@ -79,8 +79,8 @@
 		(uuid "66033fbd-4b79-4131-a946-273f2d4fe614")
 	)
 	(fp_circle
-		(center 2.65 0)
-		(end 4.55 0)
+		(center 3.5 0)
+		(end 5.4 0)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -101,8 +101,8 @@
 		(uuid "d1501489-8b0f-4c5a-a79c-41aba0e8d196")
 	)
 	(fp_circle
-		(center 2.65 0)
-		(end 4.8 0)
+		(center 3.5 0)
+		(end 5.65 0)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,24 +165,24 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "cb971162-5e3e-4988-8544-67565e09e4dc")
 	)
-	(pad "1" connect circle
-		(at 2.65 0)
-		(size 3.8 3.8)
-		(layers "F.Cu" "F.Mask")
-		(uuid "14c5410a-0b73-45d4-af14-b5cd0b8efdd2")
-	)
-	(pad "1" connect circle
-		(at 2.65 0)
-		(size 3.8 3.8)
-		(layers "B.Cu" "B.Mask")
-		(uuid "6b10cdfe-9380-4ddb-8613-f85b4815d1cc")
-	)
 	(pad "2" thru_hole circle
-		(at 2.65 0)
+		(at 3.5 0)
 		(size 2.6 2.6)
 		(drill 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1162d82a-323c-45c0-8830-111cff1b286a")
+	)
+	(pad "2" connect circle
+		(at 3.5 0)
+		(size 3.8 3.8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "14c5410a-0b73-45d4-af14-b5cd0b8efdd2")
+	)
+	(pad "2" connect circle
+		(at 3.5 0)
+		(size 3.8 3.8)
+		(layers "B.Cu" "B.Mask")
+		(uuid "6b10cdfe-9380-4ddb-8613-f85b4815d1cc")
 	)
 )
