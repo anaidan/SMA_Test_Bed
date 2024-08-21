@@ -4428,7 +4428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 219.71 59.6899 0)
 			(effects
 				(font
@@ -4761,7 +4761,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 231.14 59.6899 0)
 			(effects
 				(font

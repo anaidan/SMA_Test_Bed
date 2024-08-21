@@ -2977,7 +2977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "270nF"
 			(at 77.47 64.7699 0)
 			(effects
 				(font
@@ -3171,7 +3171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "470k"
 			(at 190.5 137.1599 0)
 			(effects
 				(font
@@ -3412,7 +3412,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "5"
 			(at 247.65 68.5799 0)
 			(effects
 				(font
@@ -3691,7 +3691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "270nF"
 			(at 203.2 137.1599 0)
 			(effects
 				(font
@@ -4401,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 104.14 119.38 90)
 			(effects
 				(font
@@ -5292,7 +5292,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "3Meg"
 			(at 54.356 131.318 90)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "470k"
 			(at 64.77 64.7699 0)
 			(effects
 				(font
@@ -5455,7 +5455,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "5"
 			(at 121.92 135.8899 0)
 			(effects
 				(font
@@ -5731,7 +5731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "470k"
 			(at 190.5 67.3099 0)
 			(effects
 				(font
@@ -5890,7 +5890,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 104.14 49.53 90)
 			(effects
 				(font
@@ -6051,7 +6051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "470k"
 			(at 64.77 134.6199 0)
 			(effects
 				(font
@@ -6289,7 +6289,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "3Meg"
 			(at 180.086 133.858 90)
 			(effects
 				(font
@@ -6369,7 +6369,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 229.87 121.92 90)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "270nF"
 			(at 203.2 67.3099 0)
 			(effects
 				(font
@@ -6849,7 +6849,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "3Meg"
 			(at 54.356 61.468 90)
 			(effects
 				(font
@@ -6929,7 +6929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "270nF"
 			(at 77.47 134.6199 0)
 			(effects
 				(font
@@ -7011,7 +7011,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "5"
 			(at 121.92 66.0399 0)
 			(effects
 				(font
@@ -7365,7 +7365,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "5"
 			(at 247.65 138.4299 0)
 			(effects
 				(font
@@ -7683,7 +7683,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "3Meg"
 			(at 180.086 64.008 90)
 			(effects
 				(font
@@ -7763,7 +7763,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 229.87 52.07 90)
 			(effects
 				(font
