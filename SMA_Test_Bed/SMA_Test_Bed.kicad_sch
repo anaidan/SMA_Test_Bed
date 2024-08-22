@@ -2252,6 +2252,126 @@
 				)
 			)
 		)
+		(symbol "power:Vdrive"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Vdrive"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Vdrive_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Vdrive_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(bus_alias "PWM_SP"
 		(members "PWM_SP0" "PWM_SP1" "PWM_SP2" "PWM_SP3")
@@ -2285,10 +2405,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4157790-fb90-42d6-bcaa-c71f09514891")
-	)
-	(no_connect
-		(at 191.77 49.53)
-		(uuid "0ec137a8-a663-4352-ae68-d2959e00b45a")
 	)
 	(no_connect
 		(at 179.07 62.23)
@@ -2345,10 +2461,6 @@
 	(no_connect
 		(at 191.77 44.45)
 		(uuid "b2b43c19-5191-4583-b648-2ca96bc03ede")
-	)
-	(no_connect
-		(at 191.77 46.99)
-		(uuid "c0e1f4ec-e111-441e-89b7-2c6f61ab69d1")
 	)
 	(no_connect
 		(at 191.77 59.69)
@@ -2528,6 +2640,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 45.72) (xy 207.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0468c6f2-5e73-409e-985d-d9bacdc08e03")
+	)
+	(wire
+		(pts
 			(xy 77.47 140.97) (xy 80.01 140.97)
 		)
 		(stroke
@@ -2635,6 +2757,16 @@
 			(type default)
 		)
 		(uuid "3585aeaa-7fc4-40b8-bc25-24ee36ec7f2d")
+	)
+	(wire
+		(pts
+			(xy 191.77 49.53) (xy 207.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3d4ceb-211d-4b2c-b71b-0447820476c8")
 	)
 	(wire
 		(pts
@@ -3005,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "b67e22ee-b362-48fd-9ff1-5f0a62d683ea")
+	)
+	(wire
+		(pts
+			(xy 194.31 46.99) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc0e615-ed80-4f41-b90f-b538fe1dda42")
 	)
 	(wire
 		(pts
@@ -3708,6 +3850,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 53.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SMA_Test_Bed"
 				(path "/c057457e-04fc-4ad7-9601-429fb1bdcc54"
@@ -3763,6 +3914,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "490-14467-1-ND"
 			(at 40.64 102.87 0)
 			(effects
 				(font
@@ -3831,6 +3991,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x14, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "SSW-114-01-G-S-LL-ND "
 			(at 184.15 59.69 0)
 			(effects
 				(font
@@ -3927,6 +4096,73 @@
 			(project ""
 				(path "/c057457e-04fc-4ad7-9601-429fb1bdcc54"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "320821fa-341a-4be1-b4c7-9c346cfa6b09")
+		(property "Reference" "#PWR078"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.628 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4b2b244-9aa2-4c98-8b4e-1deec9872300")
+		)
+		(instances
+			(project "SMA_Test_Bed"
+				(path "/c057457e-04fc-4ad7-9601-429fb1bdcc54"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -4119,6 +4355,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 74.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "SMA_Test_Bed"
 				(path "/c057457e-04fc-4ad7-9601-429fb1bdcc54"
@@ -4195,72 +4440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 107.95 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a5dcf13-e224-43c9-961d-301ae5ec93a2")
-		(property "Reference" "#PWR046"
-			(at 107.95 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 107.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15c9e4a9-e8f0-42f3-ad14-3f86839e3c7a")
-		)
-		(instances
-			(project "SMA_Test_Bed"
-				(path "/c057457e-04fc-4ad7-9601-429fb1bdcc54"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Driver_LED:PCA9685PW")
 		(at 97.79 123.19 0)
 		(unit 1)
@@ -4308,6 +4487,15 @@
 			)
 		)
 		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "568-5931-1-ND "
 			(at 97.79 123.19 0)
 			(effects
 				(font
@@ -4464,6 +4652,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 217.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b83f4238-ea77-46cb-a9ba-4b1135f292d8")
 		)
@@ -4526,6 +4723,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 53.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" ""
 			(at 53.34 54.61 0)
 			(effects
 				(font
@@ -4797,6 +5003,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "311-10.0KHRCT-ND"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20199642-5962-45a0-99e2-719814496698")
 		)
@@ -4879,6 +5094,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Vdrive")
+		(at 107.95 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abb98b74-d164-45d3-bf46-d96757247e17")
+		(property "Reference" "#PWR0102"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed317f0c-51aa-49e5-afa1-9fec31da6503")
+		)
+		(instances
+			(project ""
+				(path "/c057457e-04fc-4ad7-9601-429fb1bdcc54"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 119.38 58.42 0)
 		(unit 1)
@@ -4925,6 +5206,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" ""
 			(at 119.38 58.42 0)
 			(effects
 				(font
@@ -4995,6 +5285,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "311-1088-1-ND"
 			(at 54.61 102.87 0)
 			(effects
 				(font
@@ -5152,6 +5451,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 207.01 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e47923-73ae-4567-abeb-7d7bb83fa508")
+		(property "Reference" "#PWR0104"
+			(at 207.01 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 207.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 207.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e901bb5-97b2-4c30-8577-81cbbbbf62b9")
+		)
+		(instances
+			(project "SMA_Test_Bed"
+				(path "/c057457e-04fc-4ad7-9601-429fb1bdcc54"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 110.49 0)
 		(unit 1)
@@ -5264,6 +5629,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" ""
 			(at 74.93 54.61 0)
 			(effects
 				(font
